@@ -1,0 +1,10 @@
+node_modules
+public/*/*.*
+
+.idea
+Thumbs.db*
+.DS_Store*
+HELP.md
+dist
+doc
+.DS_Store

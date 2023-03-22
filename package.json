@@ -1,0 +1,33 @@
+{
+	"name": "@dnd-developer/ahj-homeworks-sseWs-back",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"prestart": "npm install",
+		"start": "forever server.js",
+		"watch": "forever -w server.js"
+	},
+	"dependencies": {
+		"@koa/cors": "^4.0.0",
+		"forever": "^2.0.0",
+		"koa": "^2.13.1",
+		"koa-body": "^4.2.0",
+		"koa-combine-routers": "^4.0.2",
+		"koa-router": "^12.0.0",
+		"koa-static": "^5.0.0",
+		"uuid": "^8.3.2",
+		"ws": "^8.13.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DnD-developer/ahj-homeworks-sseWs-back.git"
+	},
+	"keywords": [],
+	"author": "@dnd-developer",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DnD-developer/ahj-homeworks-sseWs-back/issues"
+	},
+	"homepage": "https://github.com/DnD-developer/ahj-homeworks-sseWs-back#readme"
+}
